@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: Outfit, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.card__first {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 45%;
+    width: 100%;
+    padding: 30px;
+}
+
+.card__first--position {
+    flex-direction: column;
+
+}
+
+.card__first--ti {
+    color: rgb(0, 38, 255);
+}
+
+.card__first--des{
+    color: rgb(148, 187, 9);
+}
+
+.card__first--par {
+    color: rgb(193, 194, 196);
+   
+}
+
+.card__second {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+.card__second--fi, .card__second--sc {
+    flex-direction: column;
+    padding: 30px;
+   
+}
+
+.card__second--fi {
+    background-color: rgb(9, 31, 31);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ 
+}
+
+.number {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.des{
+    font-size: 12px;
+    padding-left: 5px;
+    
+}
+
+.btn{
+    background-color: rgb(240, 162, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 230px;
+    
+}
+
+.card__second--sc{
+    background-color: rgb(50, 202, 20);
+    height: 100%;
+    width: 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.title {
+    font-size: 16px;
+   
+}
+
+
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D8168;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;    
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.attribution a:visited {
+    color: rgb(17, 16, 17); /* Couleur des liens visités */
+}
+
+.attribution a:hover {
+    color: rgb(102, 11, 11); /* Couleur des liens au survol */
+}
