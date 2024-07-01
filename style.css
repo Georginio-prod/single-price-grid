@@ -76,6 +76,7 @@ body {
     
 }
 
+
 .card__second--fi {
     background-color: #2AB3B1;
     height: 100%;
@@ -88,10 +89,7 @@ body {
 }
 .number {
     font-size: 32px;
-    /* margin-bottom: 5px; */
     font-weight: 600;
-    
-   
 }
 
 .des {
@@ -107,7 +105,7 @@ body {
     font-size: 16px;
     transform: translateY(-10px);
     opacity: 80%;
-   
+    white-space: nowrap;
 }
 
 .btn {
